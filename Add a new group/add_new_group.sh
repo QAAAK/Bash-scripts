@@ -7,7 +7,7 @@ if [[ $check_group == 1 ]]; then
      echo "Group found, nothing do"
 else
      echo -en "+@$group_name::::::" >> /etc/passwd
-fi
+fi 
 
 check_sudoers_group=$(ls -lah /etc/sudoers.d/ | grep "$group_name" | wc -l)
 if [[ $check_sudoers_group == 1 ]]; then
