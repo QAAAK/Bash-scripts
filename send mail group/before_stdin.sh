@@ -1,4 +1,4 @@
-!# bin/bash
+#!/bin/bash
 
 chmod +x send_mail.sh
 crontab -e
