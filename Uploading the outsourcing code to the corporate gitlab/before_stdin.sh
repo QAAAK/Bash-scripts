@@ -1,4 +1,4 @@
-!# bin/bash
+#!/bin/bash
 
 chmod +x up_code_git.sh
 crontab -e
