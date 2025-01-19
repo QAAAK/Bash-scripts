@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 
 sudo yum clean packages
 echo 'Clean Cached YUM Packages'
