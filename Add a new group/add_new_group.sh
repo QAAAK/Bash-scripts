@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -uexo pipefail;
+
 group_name=bigdata_rubbles_dsw
 check_group=$(cat /etc/passwd | grep "$group_name" | wc -l)
 
