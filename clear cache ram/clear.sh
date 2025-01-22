@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -uexo pipefail;
+
 cache=$(free -m | grep Mem | awk '{print $6}')
 
 echo "Cache $cache MB"
