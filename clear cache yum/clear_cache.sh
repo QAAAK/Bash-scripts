@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -uexo pipefail;
+
 sudo yum clean packages
 echo 'Clean Cached YUM Packages'
 
