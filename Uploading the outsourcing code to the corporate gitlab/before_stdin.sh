@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -uexo pipefail;
+
 chmod +x up_code_git.sh
 crontab -e
 #
