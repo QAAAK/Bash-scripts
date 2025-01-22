@@ -1,3 +1,5 @@
 #!/bin/bash
 
-PGPASSWORD=**** psql -h ХОСТ -U NAME -d NAME_DB -с "COMMAND"
+set -uexo pipefail;
+
+PGPASSWORD=**** psql -h HOST -U NAME -d NAME_DB -с "COMMAND"
