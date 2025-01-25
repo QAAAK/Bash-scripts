@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -uexo pipefail;
+
 echo "How long to wait?"
 read time
 sleep $time
