@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -uexo pipefail;
+
 if [ "$1" == "" ]
 then
     echo
