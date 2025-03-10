@@ -24,7 +24,9 @@ fi
 scp "$USER@$HOST:$REMOTE_DIR/$LAST_FILE" "$LOCAL_DIR"
 
 # Проверка успешности выполнения команды
+# Проверка успешности выполнения команды
 if [ $? -eq 0 ]; then
     echo "Файл '$LAST_FILE' успешно скопирован в $LOCAL_DIR"
 else
-    ech
+    echo "Ошибка при копировании файла"
+fi
