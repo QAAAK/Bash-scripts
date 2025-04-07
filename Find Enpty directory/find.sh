@@ -1,0 +1,1 @@
+"Error: '$directory' is not a valid directory."
