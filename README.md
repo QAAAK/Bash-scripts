@@ -15,4 +15,4 @@
 
 1. Склонируйте репозиторий:
 ```bash
-git clone https://github.com/ваш_пользователь/имя_репозитория.git
+git clone https://github.com/QAAAK/Bash-scripts.git
