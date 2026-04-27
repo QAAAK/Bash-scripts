@@ -27,7 +27,6 @@ hdfs dfs -ls "$HDFS_SOURCE_DIR" 2>/dev/null | tail -n +2 | \
             continue
         fi
 
-
         base_filename=$(basename "$filename")
         local_file_path="$LOCAL_TARGET_DIR/$base_filename"
 
